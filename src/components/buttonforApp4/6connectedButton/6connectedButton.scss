@@ -1,0 +1,31 @@
+.connected {
+    display: flex;
+    border-radius: 32px;
+  
+    width: 200px;
+    height: 37px;
+    margin-left: -7px;
+  
+    margin-top: 20px;
+    background-color: #113446;
+    opacity: 0.75;
+  }
+  .connect-logo-1 {
+    margin-left: 11%;
+    height: 15px;
+    margin-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .connect-logo-2 {
+    margin-left: 4%;
+    margin-top: 3%;
+    height: 19px;
+    width: 90px;
+    font-family: "Montserrat", sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }

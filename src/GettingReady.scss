@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+// page2css
+body {
+  background-image: url("/UI/tibumana-waterfall-bali-island-indonesia.png");
+  background-position: center;
+  min-height: 100%;
+  //   min-width: 1024px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+.EC {
+  display: flex;
+  border: 2px ssolid green;
+  border: 2px solid green;
+  width: 60%;
+  justify-content: space-between;
+}
+.behindEC {
+  border: 2px solid yellow;
+  width: 3%;
+}
+
+.Expense {
+  display: flex;
+
+  width: 137.79px;
+  height: 35px;
+
+  margin-top: 20px;
+}
+.combnation {
+  display: none;
+
+  justify-content: space-around;
+  width: 381px;
+  border: 2px solid red;
+}
+.combnation1 {
+  display: flex;
+  justify-content: space-around;
+  width: 381px;
+  border: 2px solid red;
+}
+
+.connected {
+  display: flex;
+  border-radius: 32px;
+
+  width: 200px;
+  height: 37px;
+  margin-left: -7px;
+
+  margin-top: 20px;
+  background-color: #113446;
+  opacity: 0.75;
+}
+.Logout {
+  display: flex;
+  border-radius: 32px;
+
+  width: 142px;
+  height: 37px;
+  background-color: #113446;
+  opacity: 0.75;
+  margin-top: 20px;
+}
+.connect-logo-2 {
+  margin-left: 4%;
+  margin-top: 3%;
+  height: 19px;
+  width: 90px;
+  font-family: "Montserrat", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.connect-logo-1 {
+  margin-left: 11%;
+  height: 15px;
+  margin-top: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.connect-logo-5 {
+  margin-left: 5%;
+  height: 15px;
+  margin-top: 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.connect-logo-6 {
+  padding-left: 5%;
+  margin-top: 4%;
+  height: 19px;
+  width: 104px;
+  font-family: "Montserrat", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.mainwrapper1 {
+  height: 50%;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+}
+.mainwrapper {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #11344600;
+  opacity: 94%;
+  border-radius: 1px;
+  position: absolute;
+
+  height: 75vh;
+  width: 1140px;
+
+  margin-top: 45px;
+  border-radius: 9px;
+}
+.wrapper-outside11 {
+  width: 90%;
+
+  height: auto;
+  background-color: #0e2634;
+}
+.wrapper-outside111 {
+  width: 90%;
+
+  height: 10vh;
+  background-color: #0e2634;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-outside1 {
+  display: flex;
+  display: flex;
+  background-color: #0e2634;
+  align-items: center;
+
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+  border-radius: 6px;
+}
+.humberger {
+  border: 2px solid red;
+  display: block;
+  visibility: hidden;
+}
+
+.wrapper-outside1 p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.wrapper-outside11 h3 {
+  color: white;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-outside11 p {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-outside {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+  background-color: #0e2634;
+  border-radius: 6px;
+}
+.wrapper-outside2 {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+
+  background-color: #0e2634;
+}
+
+.wrapper1-inside2 strong,
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper1 {
+  background-color: #0e2634;
+  border-radius: 7px;
+  width: 90%;
+
+  height: auto;
+}
+
+.wrapper1-inside1 img {
+  top: 10px;
+  right: 20px;
+  margin-left: 25%;
+  margin-bottom: 83px;
+}
+
+.wrapper2 {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  width: 90%;
+  background-color: #0e2634;
+  border-radius: 7px;
+
+  height: auto;
+}
+
+.wrapper1-inside1 {
+  height: 15vh;
+
+  width: 10%;
+  display: flex;
+  margin-left: 0%;
+
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 0%;
+  overflow: hidden;
+}
+
+.wrapper1-inside2 {
+  height: 15vh;
+
+  width: 90%;
+}
+.wrapper-outside2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-color: #720a0a;
+
+  border: none;
+  color: white;
+  padding: 0% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  border-radius: 32px 35px;
+}
+
+.search-bar1 {
+  width: 25vw;
+  color: white;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: rgb(243, 242, 240);
+  height: 35px;
+
+  background-repeat: no-repeat;
+  padding-left: 3%;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper1 h3 {
+  color: white;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper1 p {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.checkbox-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.myCheckbox input {
+  position: relative;
+  z-index: -9999;
+}
+.myCheckbox {
+  display: flex;
+  margin: 5px;
+}
+.myCheckbox span {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-color: #0e2634;
+  border: 2px solid white;
+}
+
+.myCheckbox input:checked + span {
+  background-image: url("/UI/outline_done_white_24dp.png");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.label-for {
+  margin-left: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.button11 {
+  background-color: #1f3e51;
+  display: flex;
+  border: none;
+  color: white;
+  padding: 0% 14%;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  border-radius: 32px 35px;
+}
+
+.button-wrapper {
+  width: 60%;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: flex;
+}
+
+.connect-logo-55 {
+  margin-top: 12px;
+  margin-right: 3px;
+}
+
+.button11 p {
+  font-family: "Montserrat", sans-serif;
+  color: #788b96;
+  margin-left: 7%;
+}
+
+.myCheckbox1 {
+  margin-left: 7%;
+}
+
+@media only screen and (max-width: 800px) {
+  .combnation1 {
+    display: none;
+  }
+  .humberger {
+    // border: 2px solid red;
+    display: block;
+    visibility: visible;
+  }
+  nav {
+    flex-direction: row;
+  }
+  .Expense {
+    margin-left: 2%;
+  }
+  .combnation {
+    flex-direction: column;
+    margin-left: 0%;
+
+    display: none;
+  }
+  .EC {
+    flex-direction: column;
+    display: block;
+  }
+  .behindEC {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1470px) {
+  .mainwrapper {
+    width: 60%;
+  }
+  .wrapper1-inside1 img {
+    margin-left: 7px;
+    width: 63%;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .wrapper1-inside1 img {
+    width: 63%;
+  }
+}

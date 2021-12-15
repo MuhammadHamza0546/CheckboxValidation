@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Montserrat:wght@300;400;800&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Montserrat:wght@300;800&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap");
+// page2css
+body {
+  background-image: url("/UI/beautiful-setting-sun-forest-mountain-landscape.png");
+  background-position: center;
+  min-height: 100%;
+  min-width: 1024px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  // background-size: 100% 100%;
+  // height: 100vh;
+  // width: 100%;
+}
+
+nav {
+  // border: 2px solid blue;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Expense {
+  display: flex;
+
+  width: 137.79px;
+  height: 35px;
+  margin-left: 21%;
+  // right
+  // left: 300px;
+  // right: 0px;
+  margin-top: 20px;
+
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+.combnation {
+  display: flex;
+  margin-right: 19%;
+  justify-content: space-between;
+  width: 381px;
+}
+.connected {
+  display: flex;
+  border-radius: 32px;
+  border: 2px solid #35515d;
+  width: 200px;
+  height: 37px;
+  margin-left: 15px;
+  // right: 25px;
+  margin-top: 20px;
+  background-color: #113446;
+  opacity: 0.75;
+}
+.Logout {
+  display: flex;
+  border-radius: 32px;
+  border: 2px solid #35515d;
+  width: 141px;
+  height: 37px;
+  background-color: #113446;
+  opacity: 0.75;
+  margin-top: 20px;
+}
+.connect-logo-2 {
+  margin-left: 9%;
+  margin-top: 2%;
+  height: 19px;
+  width: 90px;
+  font-family: "Mohave", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.connect-logo-1 {
+  margin-left: 13%;
+  height: 15px;
+  margin-top: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.connect-logo-5 {
+  margin-left: 13%;
+  height: 15px;
+  margin-top: 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.connect-logo-6 {
+  padding-left: 3%;
+  margin-top: 3%;
+  height: 19px;
+  width: 90px;
+  font-family: "Mohave", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.MAYDAYLEADERBOARD {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  left: 10%;
+  display: flex;
+  margin-bottom: 679px;
+}
+
+.MAYDAYLEADERBOARD h1 {
+  color: white;
+}
+
+.mainwrapper {
+  background-color: #35515d;
+  opacity: 94%;
+  border-radius: 1px;
+  position: absolute;
+  height: 81vh;
+  width: 60%;
+  margin-left: 21%;
+  margin-top: 45px;
+  border-radius: 9px;
+}
+
+.tableWrapper {
+  border: 2px solid grey;
+  position: absolute;
+  top: 110px;
+  left: 10%;
+  height: 57vh;
+  width: 80%;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  min-height: 57vh;
+  color: white;
+}
+
+#customers td,
+#customers th {
+  padding: 2px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #0e2634;
+}
+#customers tr:nth-child(odd) {
+  background-color: #2d4955;
+}
+
+#customers th {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left;
+  background-color: #071117;
+  color: white;
+}
+#customers td {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 18px;
+}
+
+.button {
+  position: absolute;
+  top: 88%;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  width: 100%;
+}
+.TeamNarre {
+  padding-left: 12px !important;
+}
+
+.Result {
+  padding-left: 13px !important;
+}
+.Incorrect {
+  padding-left: -8spx !important;
+}
+//page2css
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+  .Expense {
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 652px) {
+  .tableWrapper {
+    overflow: scroll;
+  }
+}

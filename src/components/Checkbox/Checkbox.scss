@@ -1,0 +1,31 @@
+.myCheckbox input {
+    position: relative;
+    z-index: -9999;
+  }
+  .myCheckbox {
+    display: flex;
+    margin: 5px;
+  }
+  .myCheckbox span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: #0e2634;
+    border: 2px solid white;
+  }
+  
+  .myCheckbox input:checked + span {
+    background-image: url("/UI/outline_done_white_24dp.png");
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .myCheckbox1 {
+    margin-left: 7%;
+  }
+  .label-for {
+    margin-left: 14px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
